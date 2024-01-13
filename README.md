@@ -6,8 +6,8 @@ Smart greenhouse is an IoT project. The idea is to have a modern greenhouse ther
 
 ## Components
 
-Control side: Website created using HTML, CSS and JS. With the website, users can monitor temperature and humidity
-Execution side: ESP8266, DHT11, led bulb
-Database: Real-Time database - Firebase
+• Control side: Website created using HTML, CSS and JS. With the website, users can monitor temperature and humidity
+• Execution side: ESP8266, DHT11, led bulb
+• Database: Real-Time database - Firebase
 
 
