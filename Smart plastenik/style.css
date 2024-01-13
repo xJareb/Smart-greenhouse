@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(/images/yst7_mno1_211109.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 7%;
+}
+.params input:disabled{
+    border-radius: 10px;
+    width: 50%;
+    padding: 10px;
+    background-color:white;
+}
+.params label{
+    display: block;
+    font-size: 22px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.params{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.params .temperature, .params .vlaznost{
+    margin-left: calc(50% - 280px)
+}
+.upozorenje{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(255, 243, 205);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 2%;
+}
+.upozorenje p{
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-top: 35px;
+}
+.button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100px;
+    padding: 3px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(205, 223, 255);
+}
